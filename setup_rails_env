@@ -4,6 +4,7 @@ yum install -y sqlite sqlite-devel
 yum install -y openssl-devel
 yum install -y ruby
 yum install -y mariadb-client mariadb mariadb-server mariadb-libs mariadb-devel
+yum install -y libxml2 libxslt
 systemctl start mariadb.service
 systemctl enable mariadb.service
 
